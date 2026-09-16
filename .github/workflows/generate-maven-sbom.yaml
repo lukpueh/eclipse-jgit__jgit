@@ -59,3 +59,4 @@ jobs:
           sbom-file: target/cyclonedx.json
           product-name: 'JGit'
           product-version: ${{ env.PROJECT_VERSION }}
+          staging: true
